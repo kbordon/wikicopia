@@ -29,20 +29,18 @@
 */
 
 #wrapper {
-  padding-left: 250px;
-  transition: all 0.4s ease 0s;
+  padding-left: 50px;
 }
 
 #sidebar-wrapper {
   margin-left: -250px;
   left: 250px;
-  width: 250px;
-  background: #CCC;
+  width: 150px;
+  background: pink;
   position: fixed;
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
-  transition: all 0.4s ease 0s;
 }
 
 #page-content-wrapper {
@@ -76,7 +74,6 @@
     #wrapper.active #sidebar-wrapper {
       left: 250px;
       width: 250px;
-      transition: all 0.4s ease 0s;
     }
 
 }
