@@ -33,13 +33,32 @@
   background-color: lightgray;
 }
 
-.container-fluid {
-  padding: 0px;
+.padding-0 {
+  padding-right:0;
+  padding-left:0;
 }
 
-.navigatorcontainer {
-  padding: 0px;
+.paddingleft {
+  padding-right:5px;
+  padding-left:10px;
 }
+
+.paddingright {
+  padding-right:10px;
+  padding-left:5px;
+}
+
+.paddinginside {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.well {
+  height: 125px;
+}
+
 
 h3 {
   font-family: serif;
