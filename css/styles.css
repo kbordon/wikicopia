@@ -30,9 +30,15 @@
 }
 
 .sidebar {
-  padding-right: 1px;
-  float: left;
-  width: 75px;
+  background-color: lightgray;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.navigatorcontainer {
+  padding: 0px;
 }
 
 h3 {

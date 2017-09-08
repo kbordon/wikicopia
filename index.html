@@ -6,117 +6,103 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
   </head>
   <body>
-    <div id="wrapper">
+    <div class="container-fluid"><!--container for enter site-->
+      <div class="row"><!--row for sidebar (and content+nav)-->
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><!--col for sidebar-->
+          <div class="sidebar"><!--sidebarstyles-->
+            <img src="img/logo_sidebar.png" alt="Logo of Wikipedia's globe" width="150px">
+            <ul>
+              <li>Main page</li>
+              <li>Main page</li>
+              <li>Main page</li>
+              <li>Main page</li>
+              <li>Main page</li>
+              <li>Main page</li>
+            </ul>
+          </div><!--sidebarstyles-->
+        </div><!-- col for sidebar-->
 
-      <!--sidebar-->
-      <div id="sidebar-wrapper">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10"><!--col for webcontent-->
+          <div class="navigatorcontainer">
+            <!--navigation-->
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="https://en.wikipedia.org/wiki/Main_Page">Main Page</a></li>
+              <li role="presentation"><a href="https://en.wikipedia.org/wiki/Talk:Main_Page">Talk</a></li>
+              <li role="presentation"><a href="#">Read</a></li>
+              <li role="presentation"><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit">View source</a></li>
+              <li role="presentation"><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=history">View history</a></li>
+            </ul>
+          </div>
 
-        <img src="" alt="">
-        <ul class="sidebar-nav">
-          <img src="img/logo_sidebar.png" alt="Logo of Wikipedia's globe">
-          <li class="sidebar-brand"> Main page</li>
-          <li class="sidebar-brand"> Main page</li>
-          <li class="sidebar-brand"> Main page</li>
-          <li class="sidebar-brand"> Main page</li>
-          <li class="sidebar-brand"> Main page</li>
-          <li class="sidebar-brand"> Main page</li>
-        </ul>
-      </div>
-
-      <div id="page-content-wrapper">
-        <div class="page-content">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-
-        <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="https://en.wikipedia.org/wiki/Main_Page">Main Page</a></li>
-        <li role="presentation"><a href="https://en.wikipedia.org/wiki/Talk:Main_Page">Talk</a></li>
-        <li role="presentation"><a href="#">Read</a></li>
-        <li role="presentation"><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=edit">View source</a></li>
-        <li role="presentation"><a href="https://en.wikipedia.org/w/index.php?title=Main_Page&action=history">View history</a></li>
-      </ul>
-      <!--Top row-->
-      <div class ="row">
-        <div class="panel panel-default">
-          <div class="panel-body">
+            <!--Top row-->
             <h1>Welcome to Wikipedia</h1>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
-
-            <!--column 1 row 2-->
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="picbox1">
-              <h4 class="titlebox1">from today's featured article</h4>
               <img src="" alt="">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h4 class="titlebox1">Did you know... </h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <!--row 2 col1-->
+            <div class="panel panel-default">
+              <div class="picbox1">
+                <h4 class="titlebox1">from today's featured article</h4>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborinisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veliesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunin culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h4 class="titlebox1">Did you know... </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ulabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborinisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate veliesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunin culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
             </div>
-          </div>
-        </div>
-        <!--column 2 row 2-->
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="picbox2">
-              <h4 class="titlebox2">In the news</h4>
-              <img src="" alt="">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <h4 class="titlebox2">On this day...</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+              <!--row 2 col2-->
+              <div class="panel panel-default">
+                <div class="picbox2">
+                  <h4 class="titlebox2">In the news</h4>
+                  <img src="" alt="">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, suntin culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                  <h4 class="titlebox2">On this day...</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, suntin culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+
+            <!--row 3-->
+            <div class="panel panel-default">
+              <div class="picbox3">
+                <h4 class="titlebox3"><strong>Today's featured picture</strong></h4>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velitesse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt inculpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <!--row 3-->
-      <div class="row">
-        <div class="panel panel-default">
-          <div class="picbox3">
-            <h4 class="titlebox3"><strong>Today's featured picture</strong></h4>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
-      </div>
-      <!--Bottom-->
-      <h3>Other areas of Wikipedia</h3>
-      <hr>
-        <ul>
-          <li>Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</li>
-          <li>Help desk – Ask questions about using Wikipedia.</li>
-          <li>Local embassy – For Wikipedia-related communication in languages other than English.</li>
-          <li>Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
-          Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.</li>
-          <li>Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.</li>
-        </ul>
-      <h3>Wikipedia's sister projects</h3>
-      <hr>
-      <img src="">
-      <img src="">
-      <img src="">
-      <img src="">
-      <img src="">
-      <img src="">
-      <img src="">
+            <!--Bottom-->
+            <h3>Other areas of Wikipedia</h3>
+            <hr>
+            <ul>
+              <li>Community portal – Bulletin board, projects, resources and activities covering a wide range ofWikipedia areas.</li>
+              <li>Help desk – Ask questions about using Wikipedia.</li>
+              <li>Local embassy – For Wikipedia-related communication in languages other than English.</li>
+              <li>Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on awide range of subjects.
+              Site news – Announcements, updates, articles and press releases on Wikipedia and the WikimediaFoundation.</li>
+              <li>Village pump – For discussions about Wikipedia itself, including areas for technical issues andpolicies.</li>
+            </ul>
 
-      <h3>Wikipedia languages</h3>
-      <hr>
-      <p>This Wikipedia is written in English. Started in 2001, it currently contains 5,473,242 articles. Many other Wikipedias are available; some of the largest are listed below.
-      <ul>
-        <li>More than 1,000,000 articles: Deutsch Español Français Italiano Nederlands 日本語 Polski Русский Svenska Tiếng Việt</li>
-        <li>More than 250,000 articles: العربية Bahasa Indonesia Bahasa Melayu Català Čeština Euskara فارسی 한국어 Magyar Norsk Português Română Srpski Srpskohrvatski Suomi Türkçe Українська 中文</li>
-        <li>More than 50,000 articles: Bosanski Български Dansk Eesti Ελληνικά English (simple form) Esperanto Galego עברית Hrvatski Latviešu Lietuvių Norsk nynorsk Slovenčina Slovenščina ไทย</li>
-    </div>
-  </div>
-</div>
+            <h3>Wikipedia's sister projects</h3>
+            <hr>
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
 
-  </div>
-</div>
+            <h3>Wikipedia languages</h3>
+            <hr>
+            <p>This Wikipedia is written in English. Started in 2001, it currently contains 5,473,242 articles. Many other Wikipedias are available; some of the largest are listed below.
+            <ul>
+              <li>More than 1,000,000 articles: Deutsch Español Français Italiano Nederlands 日本語 Polski Русский Svenska Tiếng Việt</li>
+              <li>More than 250,000 articles: العربية Bahasa Indonesia Bahasa Melayu Català Čeština Euskara فارسی 한국어 Magyar Norsk Português Română Srpski Srpskohrvatski Suomi Türkçe Українська 中文</li>
+              <li>More than 50,000 articles: Bosanski Български Dansk Eesti Ελληνικά English (simple form) Esperanto Galego עברית Hrvatski Latviešu Lietuvių Norsk nynorsk Slovenčina Slovenščina ไทย</li>
+            </ul>
+        </div><!--col for webcontent-->
+      </div><!--row for sidebar and content+nav-->
+    </div><!--container-->
   </body>
 </html>
